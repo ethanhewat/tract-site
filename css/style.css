@@ -125,18 +125,11 @@ header {
   align-items: center;
   gap: 10px;
 }
-.logo-mark {
-  width: 34px;
-  height: 34px;
-  border-radius: 8px;
+.logo-oblong {
+  height: 38px;
+  width: auto;
   display: block;
-}
-.logo-word {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1.15rem;
-  letter-spacing: 0.02em;
-  color: var(--navy);
+  border-radius: 6px;
 }
 .nav-links {
   display: flex;
