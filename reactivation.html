@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Reactivation Done Right — Or Your Money Back | Tract</title>
+<meta name="description" content="We turn the customer list you've already paid to build into new sales, with no extra ad spend and nothing for you to manage. If it hasn't paid for itself in profit within 60 days, you get a full refund.">
+<link rel="canonical" href="https://ontract.co/reactivation.html">
+<meta property="og:title" content="Email Reactivation Done Right — Or Your Money Back">
+<meta property="og:description" content="There's an extra £5k–£50k sitting in your customer list. We get it back, and if the system hasn't paid for itself in profit within 60 days, you get a full refund.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ontract.co/reactivation.html">
+<meta property="og:image" content="https://ontract.co/images/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Tract">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="images/favicon.ico" sizes="any">
+<link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  /* Landing-page-only styles — everything else comes from css/style.css */
+  .guarantee-strip {
+    display: flex; align-items: center; gap: 12px;
+    margin-top: 26px; padding: 14px 18px;
+    border: 1px solid rgba(207,145,83,0.45);
+    border-radius: var(--radius-sm);
+    background: rgba(207,145,83,0.08);
+    max-width: 620px;
+  }
+  .guarantee-strip .seal {
+    flex-shrink: 0; width: 34px; height: 34px; border-radius: 50%;
+    background: var(--blue); color: var(--navy);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 0.95rem;
+  }
+  .guarantee-strip p { color: #E3E7EA; font-size: 0.92rem; margin: 0; }
+  .guarantee-strip strong { color: var(--white); }
+  .hero h1 .accent { color: var(--blue); }
+  .calc-card { max-width: 640px; margin: 0 auto; }
+  .qualify-options { display: grid; gap: 10px; margin-top: 12px; }
+  .qualify-options button {
+    text-align: left; padding: 14px 18px;
+    background: var(--white); border: 1px solid var(--paper-dim);
+    border-radius: var(--radius-sm); font: inherit; color: var(--ink);
+    cursor: pointer; transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .qualify-options button:hover { border-color: var(--blue); }
+  .qualify-options button.selected { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(207,145,83,0.18); }
+  .qualify-step { display: none; }
+  .qualify-step.active { display: block; }
+  .qualify-msg { padding: 24px; border-radius: var(--radius); background: var(--white); border: 1px solid var(--paper-dim); }
+  .nav-min { justify-content: space-between; }
+  @media (max-width: 640px) {
+    .nav-min { flex-wrap: nowrap; }
+    .guarantee-strip { align-items: flex-start; }
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Customer Reactivation",
+  "serviceType": "Email reactivation for existing customer lists",
+  "description": "A done-for-you, personalised reactivation system that turns past customers into new sales. Full refund if it hasn't paid for itself in profit within 60 days.",
+  "provider": { "@type": "ProfessionalService", "name": "Tract", "url": "https://ontract.co/" },
+  "areaServed": "GB",
+  "audience": { "@type": "Audience", "audienceType": "Independent home, garden and lifestyle brands" },
+  "url": "https://ontract.co/reactivation.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "My list is old — will they even remember me?", "acceptedAnswer": { "@type": "Answer", "text": "That's exactly why it works. Old lists are usually the most profitable because no one's spoken to them in years, so there's no fatigue. They walked in or asked for a quote for a reason." } },
+    { "@type": "Question", "name": "I've tried email before and it didn't work.", "acceptedAnswer": { "@type": "Answer", "text": "Generic newsletters and '20% off' blasts don't do much — they waste your time and slowly erode your list. This is different: cleaned, segmented, personalised messages built around what each customer actually bought and when." } },
+    { "@type": "Question", "name": "I don't have time to manage this.", "acceptedAnswer": { "@type": "Answer", "text": "You don't manage anything. We clean the list, write the messages, install the system and run it. It's completely done for you." } },
+    { "@type": "Question", "name": "What does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "We'll give you a clear number on the review. Whatever it is, you're covered: if the system hasn't made that fee back in profit within 60 days, you get a full refund. The only thing it costs to find out is 30 minutes." } },
+    { "@type": "Question", "name": "Do I qualify?", "acceptedAnswer": { "@type": "Answer", "text": "We work with independent home, garden and lifestyle brands that have a customer list of at least 2,000 contacts." } }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Landing page: nav links removed on purpose so visitors stay on the offer -->
+<header>
+  <nav class="nav nav-min">
+    <a href="index.html" class="logo"><img src="images/tract-logo-oblong.png" alt="Tract" class="logo-oblong"></a>
+    <a href="#qualify" class="nav-cta">Check if you qualify</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Customer reactivation · Home, garden &amp; lifestyle brands</div>
+    <h1>Email reactivation done right. <span class="accent">Or your money back.</span></h1>
+    <p class="lede">There's an extra £5k–£50k already sitting in the customer list you've paid to build. We install a personalised reactivation system that turns past customers into new sales. No extra ad spend, and it's all done for you.</p>
+    <div class="hero-ctas">
+      <a href="#calc" class="btn btn-primary">Show me what my list is worth</a>
+      <a href="#guarantee" class="btn btn-secondary">How the guarantee works</a>
+    </div>
+    <div class="guarantee-strip">
+      <div class="seal">✓</div>
+      <p><strong>60-day money-back guarantee.</strong> If we can't recoup your fee in profit within 60 days, you get a full refund.</p>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">80/20</div>
+        <div class="stat-label">Most revenue comes from a minority of existing customers</div>
+      </div>
+      <div>
+        <div class="stat-num">6x</div>
+        <div class="stat-label">Higher converting than generic "sale" emails</div>
+      </div>
+      <div>
+        <div class="stat-num">£0</div>
+        <div class="stat-label">Extra ad spend required</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">How it works</div>
+      <h2>Three steps. You lift a finger for none of them.</h2>
+    </div>
+    <div class="process-item">
+      <div class="process-num">01</div>
+      <div><h3>We clean &amp; segment your list</h3><p>We sort your customers by what they bought and when, so every message lands with the right people at the right time.</p></div>
+    </div>
+    <div class="process-item">
+      <div class="process-num">02</div>
+      <div><h3>We install the reactivation system</h3><p>Personalised, targeted messages that convert up to 6x better than generic newsletters. Written for you by someone who's worked the shop floor.</p></div>
+    </div>
+    <div class="process-item">
+      <div class="process-num">03</div>
+      <div><h3>The sales come in</h3><p>Past customers come back and buy again. You get a predictable pipeline that costs almost nothing to run.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt" id="calc">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">The calculator</div>
+      <h2>What's your list actually worth?</h2>
+      <p>Drag the sliders. This is what a single reactivation campaign could put back in your pocket if just 1% of your list buys.</p>
+    </div>
+
+    <div class="card calc-card">
+      <label for="listSlider" style="font-size:0.82rem; font-weight:600; color:var(--ink); display:block; margin-bottom:6px;">Contacts on your list</label>
+      <input type="range" id="listSlider" min="500" max="30000" step="500" value="3000" class="rev-slider">
+      <div style="display:flex; justify-content:space-between; font-size:0.78rem; color:var(--ink-soft); margin-top:4px;">
+        <span>500</span><span>30,000+</span>
+      </div>
+
+      <label for="aovSlider" style="font-size:0.82rem; font-weight:600; color:var(--ink); display:block; margin-top:22px; margin-bottom:6px;">Average order value</label>
+      <input type="range" id="aovSlider" min="150" max="3000" step="50" value="1000" class="rev-slider">
+      <div style="display:flex; justify-content:space-between; font-size:0.78rem; color:var(--ink-soft); margin-top:4px;">
+        <span>£150</span><span>£3,000+</span>
+      </div>
+
+      <div style="margin-top:24px; padding-top:20px; border-top:1px solid var(--paper-dim); display:flex; gap:24px; flex-wrap:wrap;">
+        <div>
+          <div style="font-size:0.82rem; color:var(--ink-soft);">Contacts</div>
+          <div class="stat-num" id="listOut" style="color:var(--navy); font-size:1.3rem;">3,000</div>
+        </div>
+        <div>
+          <div style="font-size:0.82rem; color:var(--ink-soft);">Avg. order value</div>
+          <div class="stat-num" id="aovOut" style="color:var(--navy); font-size:1.3rem;">£1,000</div>
+        </div>
+      </div>
+      <div style="margin-top:16px;">
+        <div style="font-size:0.82rem; color:var(--ink-soft);">Potential revenue from one campaign</div>
+        <div class="stat-num" id="revOut" style="color:var(--blue); font-size:2.4rem;">£30,000</div>
+        <p style="font-size:0.85rem; margin-top:6px;">At just 1% of your list buying. Your customers already know you.</p>
+      </div>
+
+      <a href="#qualify" class="btn btn-primary" style="margin-top:22px; width:100%; text-align:center;">Unlock this revenue</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-dark" id="guarantee">
+  <div class="wrap">
+    <div class="tick-rule">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="section-head">
+      <div class="eyebrow">Zero-risk guarantee</div>
+      <h2>Done right, or your money back.</h2>
+      <p>We only win when you win. If the reactivation system hasn't made back your fee in profit within 60 days, we refund the whole thing. No small print about open rates or "engagement". It's measured on profit, the only number that matters.</p>
+    </div>
+    <div class="proof-banner">
+      <div>
+        <div class="eyebrow" style="color:var(--blue); margin-bottom:6px;">The promise</div>
+        <div style="font-family:var(--font-display); font-size:1.5rem; color:var(--white); max-width:560px;">Full refund after 60 days if we can't recoup the money in profit.</div>
+      </div>
+      <a href="#qualify" class="btn btn-primary">See if you qualify</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">What our clients say</div>
+      <h2>Real feedback, real results.</h2>
+    </div>
+    <div class="grid-2">
+      <div class="case-card">
+        <p class="quote">"In the first 10 days of the campaign going live, Ethan generated 20 leads, and 12 booked appointments."</p>
+        <div class="case-meta">
+          <div><strong>John M</strong><span>Kitchen Makeovers</span></div>
+        </div>
+      </div>
+      <div class="case-card">
+        <p class="quote">"Working with Ethan has been ridiculously smooth from day one. No messing about, no overcomplicated systems."</p>
+        <div class="case-meta">
+          <div><strong>Duvan H</strong><span>DHM Carpentry</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="qualify">
+  <div class="wrap" style="max-width:760px;">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">Do I qualify?</div>
+      <h2>Two quick questions, then pick a time.</h2>
+      <p>We work with independent home, garden and lifestyle brands that have a list of at least 2,000 contacts. If that's you, book a free revenue gap review and we'll show you what it's worth.</p>
+    </div>
+
+    <div class="qualify-step active" id="q1">
+      <h3>How many contacts are on your customer list?</h3>
+      <div class="qualify-options" data-q="1">
+        <button type="button" data-fit="no">Under 2,000</button>
+        <button type="button" data-fit="yes">2,000 – 5,000</button>
+        <button type="button" data-fit="yes">5,000 – 15,000</button>
+        <button type="button" data-fit="yes">Over 15,000</button>
+      </div>
+    </div>
+
+    <div class="qualify-step" id="q2">
+      <h3>How long have you been trading?</h3>
+      <div class="qualify-options" data-q="2">
+        <button type="button">Under 5 years</button>
+        <button type="button">5 – 15 years</button>
+        <button type="button">Over 15 years</button>
+      </div>
+    </div>
+
+    <div class="qualify-step" id="q-no">
+      <div class="qualify-msg">
+        <h3 style="margin-bottom:8px;">This probably isn't the right fit yet.</h3>
+        <p>Our reactivation system works best for businesses with a list of 2,000+ contacts. If you'd like some help with your current marketing strategy, drop us an email at <a href="mailto:info@ontract.co" style="color:var(--blue); font-weight:600;">info@ontract.co</a>.</p>
+        <button type="button" class="btn btn-dark" id="restart" style="margin-top:18px; border:none; cursor:pointer;">Start again</button>
+      </div>
+    </div>
+
+    <div class="qualify-step" id="q-yes">
+      <p style="text-align:center; margin-bottom:20px; font-weight:600; color:var(--ink);">Great, book a time below.</p>
+      <iframe
+        data-src="https://api.leadconnectorhq.com/widget/booking/E2YhCNOQAvBquTN1LDn4"
+        style="width:100%; min-height:680px; border:none; border-radius:var(--radius-sm); box-shadow:var(--shadow-md);"
+        title="Book a call with Tract"
+        id="bookingFrame">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap" style="max-width:760px;">
+    <div class="section-head">
+      <div class="eyebrow">Questions</div>
+      <h2>The things everyone asks.</h2>
+    </div>
+    <div class="faq-item">
+      <h3>My list is old — will they even remember me?</h3>
+      <p>That's exactly why it works. Old lists are usually the most profitable because no one's spoken to them in years, so there's no fatigue. They walked in or asked for a quote for a reason.</p>
+    </div>
+    <div class="faq-item">
+      <h3>I've tried email before and it didn't work.</h3>
+      <p>Generic newsletters and "20% off" blasts don't do much. They waste your time and slowly erode your list. This is different: cleaned, segmented, personalised messages built around what each customer actually bought and when.</p>
+    </div>
+    <div class="faq-item">
+      <h3>I don't have time to manage this.</h3>
+      <p>You don't manage anything. We clean the list, write the messages, install the system and run it. It's completely done for you.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What does it cost?</h3>
+      <p>We'll give you a clear number on the review. Whatever it is, you're covered: if the system hasn't made that fee back in profit within 60 days, you get a full refund. The only thing it costs to find out is 30 minutes.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-dark">
+  <div class="wrap center">
+    <div class="section-head center">
+      <h2>Your list is already paid for. Let's make it pay you back.</h2>
+      <p>Free 30-minute revenue gap review, backed by a 60-day money-back guarantee.</p>
+    </div>
+    <a href="#qualify" class="btn btn-primary">Book my free revenue review</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-bottom" style="border-top:none; padding-top:0;">
+      <span>&copy; 2026 Tract · Customer reactivation for home, garden &amp; lifestyle brands</span>
+      <span><a href="mailto:info@ontract.co" style="display:inline; margin:0 14px 0 0;">info@ontract.co</a><a href="tel:+447476984354" style="display:inline; margin:0;">+44 7476 984354</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    // Calculator: 1% of list × average order value
+    var listSlider = document.getElementById('listSlider');
+    var aovSlider = document.getElementById('aovSlider');
+    var listOut = document.getElementById('listOut');
+    var aovOut = document.getElementById('aovOut');
+    var revOut = document.getElementById('revOut');
+    function fmt(n) { return n.toLocaleString('en-GB'); }
+    function update() {
+      var size = parseInt(listSlider.value, 10);
+      var aov = parseInt(aovSlider.value, 10);
+      listOut.textContent = fmt(size) + (size >= 30000 ? '+' : '');
+      aovOut.textContent = '£' + fmt(aov) + (aov >= 3000 ? '+' : '');
+      revOut.textContent = '£' + fmt(Math.round(size * 0.01 * aov));
+    }
+    listSlider.addEventListener('input', update);
+    aovSlider.addEventListener('input', update);
+    update();
+
+    // Two-question qualifier
+    function show(id) {
+      document.querySelectorAll('.qualify-step').forEach(function (s) { s.classList.remove('active'); });
+      document.getElementById(id).classList.add('active');
+    }
+    document.querySelectorAll('.qualify-options[data-q="1"] button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        b.parentNode.querySelectorAll('button').forEach(function (x) { x.classList.remove('selected'); });
+        b.classList.add('selected');
+        show(b.dataset.fit === 'no' ? 'q-no' : 'q2');
+      });
+    });
+    document.querySelectorAll('.qualify-options[data-q="2"] button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var frame = document.getElementById('bookingFrame');
+        if (!frame.src) frame.src = frame.dataset.src;
+        show('q-yes');
+      });
+    });
+    document.getElementById('restart').addEventListener('click', function () {
+      document.querySelectorAll('.qualify-options button').forEach(function (x) { x.classList.remove('selected'); });
+      show('q1');
+    });
+  })();
+</script>
+
+</body>
+</html>
