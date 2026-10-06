@@ -36,6 +36,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ontract.co/blog-christmas-order-deadline.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://ontract.co/blog-showroom-footfall.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
